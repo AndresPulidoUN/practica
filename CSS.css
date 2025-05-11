@@ -1,0 +1,16 @@
+.botonenviar {
+
+  background-color: #007AFF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 14px;
+  font-size: 17px;
+  font-weight: 500;
+     
+}
+
+.botonenviar:disabled {
+  background-color: #8d8e8f;
+  cursor: not-allowed;
+}

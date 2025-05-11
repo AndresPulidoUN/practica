@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Perfil Personal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Mi Perfil Personal</h1>
+  </header>
+
+  <nav class="navbar">
+    <button class="tab-btn active" onclick="showTab('inicio')">Inicio</button>
+    <button class="tab-btn" onclick="showTab('sobre')">Sobre mí</button>
+    <button class="tab-btn" onclick="showTab('contacto')">Contacto</button>
+  </nav>
+
+  <main>
+    <section id="inicio" class="tab-content active">
+      <h2>Bienvenido</h2>
+      <p>Hola, soy [Tu Nombre]. Esta es mi página personal. Aquí conocerás más sobre mí.</p>
+      <img src="..." alt="Foto de perfil">
+    </section>
+
+    <section id="sobre" class="tab-content">
+      <h2>Sobre mí</h2>
+      <p>Soy desarrollador web apasionado por la tecnología. Me gusta crear soluciones digitales modernas y funcionales.</p>
+      <ul>
+        <li>Formación: Ingeniería en Sistemas</li>
+        <li>Experiencia: 2 años en desarrollo front-end</li>
+        <li>Hobbies: Dibujar, leer, programar</li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="tab-content">
+      <h2>Contacto</h2>
+      <p>Puedes contactarme por los siguientes medios:</p>
+      <ul>
+        <li>Email: ejemplo@correo.com</li>
+        <li>LinkedIn: linkedin.com/in/tuusuario</li>
+        <li>GitHub: github.com/tuusuario</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html
